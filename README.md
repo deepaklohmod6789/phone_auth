@@ -1,6 +1,7 @@
 # phone_auth
 
-A new Flutter project.
+Firebase provides a variety of tools at one place to nourish your app such as authentication of users, cloud storage, cloud database, deep analytics of the app etc.
+So, among these services I have used phone authentication services provided by firebase in this project.
 
 ## Getting Started
 
