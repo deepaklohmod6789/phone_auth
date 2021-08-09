@@ -3,7 +3,7 @@
 Firebase provides a variety of tools at one place to nourish your app such as authentication of users, cloud storage, cloud database, deep analytics of the app etc.
 So, among these services I have used phone authentication service provided by firebase in this project.
 
-###Features
+### Features
 
 
 ## Getting Started
