@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "134633745452",
+    "project_id": "phone-auth-2617f",
+    "storage_bucket": "phone-auth-2617f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134633745452:android:0f653c39664c2b4385f589",
+        "android_client_info": {
+          "package_name": "com.deepak.phone_auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134633745452-8nbo61g8g3r67vf12pkjslkl8sck9trk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.deepak.phone_auth",
+            "certificate_hash": "168a1caf9dba9a2deb367e493870415d391ffed5"
+          }
+        },
+        {
+          "client_id": "134633745452-b51ksl8ne31joqp7m4bard4551oiqg0n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVOhxuR7JrzP6SDce7Z_Vw9xKKoc-x0Io"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134633745452-b51ksl8ne31joqp7m4bard4551oiqg0n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
