@@ -1,16 +1,11 @@
-# phone_auth
+# Firebase Phone Authentication in Flutter
+![Adding Firebase phone authentication in Flutter and removing reCAPTCHA for authentication](images/preview.png "Phone Authentication and removing reCaptcha")
+Firebase provides a variety of tools at one place to nourish your app such as authentication of users, cloud storage, cloud database, deep analytics of the app etc.
+So, among these services I have used phone authentication service provided by firebase in this project.
 
-A new Flutter project.
+### Features
+##### 1) Inputting phone number with option to choose country code
+##### 2) Pincode field design for entering OTP
+##### 3) Resend the OTP
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+###A detailed explanation of this project and removing reCAPTCHA screen can be found on # [this Blog](https://medium.com/@deepaklohmod6789/adding-firebase-phone-authentication-in-flutter-and-removing-recaptcha-for-authentication-38198e9a2867 "Link of Blog")

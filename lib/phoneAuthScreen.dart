@@ -44,23 +44,19 @@ class _SignInState extends State<SignIn> {
       setState(() {
         loading=true;
       });
-      PhoneVerificationCompleted verificationCompleted =
-          (PhoneAuthCredential phoneAuthCredential) async {
+      PhoneVerificationCompleted verificationCompleted = (PhoneAuthCredential phoneAuthCredential) async {
         await firebaseAuth.signInWithCredential(phoneAuthCredential);
       };
 
-      PhoneVerificationFailed verificationFailed =
-          (FirebaseAuthException authException) {
+      PhoneVerificationFailed verificationFailed = (FirebaseAuthException authException) {
         showToast(authException.message!);
       };
-      PhoneCodeSent codeSent =
-          (String? verificationId, [int? forceResendingToken]) async {
+      PhoneCodeSent codeSent = (String? verificationId, [int? forceResendingToken]) async {
         showToast('Please check your phone for the verification code.');
         this.forceResendingToken=forceResendingToken;
         _verificationId = verificationId;
       };
-      PhoneCodeAutoRetrievalTimeout codeAutoRetrievalTimeout =
-          (String verificationId) {
+      PhoneCodeAutoRetrievalTimeout codeAutoRetrievalTimeout = (String verificationId) {
         _verificationId = verificationId;
       };
       try {
