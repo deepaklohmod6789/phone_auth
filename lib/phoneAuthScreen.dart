@@ -45,7 +45,19 @@ class _SignInState extends State<SignIn> {
         loading=true;
       });
       PhoneVerificationCompleted verificationCompleted = (PhoneAuthCredential phoneAuthCredential) async {
-        await firebaseAuth.signInWithCredential(phoneAuthCredential);
+        User? user;
+        bool error=false;
+        try{
+          user=(await firebaseAuth.signInWithCredential(phoneAuthCredential)).user!;
+        } catch (e){
+        print("Failed to sign in: " + e.toString());
+        error=true;
+        }
+        if(!error&&user!=null){
+          String id=user.uid;
+          //here you can store user data in backend
+          Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>HomeScreen(userId: id)));
+        }
       };
 
       PhoneVerificationFailed verificationFailed = (FirebaseAuthException authException) {
