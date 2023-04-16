@@ -8,4 +8,4 @@ So, among these services I have used phone authentication service provided by fi
 ##### 2) Pincode field design for entering OTP
 ##### 3) Resend the OTP
 
-### A detailed explanation of this project and removing reCAPTCHA screen can be found on [this Blog](https://medium.com/@deepaklohmod6789/adding-firebase-phone-authentication-in-flutter-and-removing-recaptcha-for-authentication-38198e9a2867 "Link of Blog")
+### A detailed explanation of this project and removing reCAPTCHA screen can be found on [this Blog](https://xoscripts.blogspot.com/2021/08/adding-firebase-phone-authentication-in-flutter.html "Link of Blog")
